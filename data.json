@@ -153,5 +153,56 @@
 		"command": "Ctrl + ]",
 		"context": "Marks and positions",
 		"content": "Jump to the tag under cursor"
+	},
+	{
+		"command": "Ctrl + ]",
+		"context": "Marks and positions",
+		"content": "Jump to the tag under cursor"
+	},
+	{
+		"command": ":tabnew or :tabnew {page.words.file}",
+		"context": "Tabs",
+		"content": "open a file in a new tab"
+	},
+	{
+		"command": "Ctrl + wT",
+		"context": "Tabs",
+		"content": "move the current split window into its own tab"
+	},
+	{
+		"command": "gt or :tabn[ext]",
+		"context": "Tabs",
+		"content": "move to the next tab"
+	},
+	{
+		"command": "gT or :tabp[revious]",
+		"context": "Tabs",
+		"content": "move to the previous tab"
+	},
+	{
+		"command": "#gt",
+		"context": "Tabs",
+		"content": "move to tab number"
+	},
+	{
+		"command": ":tabm[ove] #",
+		"context": "Tabs",
+		"content": "move current tab to the #th position (indexed from 0)"
+	},
+	{
+		"command": ":tabc[lose]",
+		"context": "Tabs",
+		"content": "close the current tab and all its windows"
+	},
+	{
+		"command": ":tabo[nly]",
+		"context": "Tabs",
+		"content": "close all tabs except for the current one"
+	},
+	{
+		"command": ":tabdo command",
+		"context": "Tabs",
+		"content": "run the command on all tabs (e.g. :tabdo q - closes all opened tabs)"
 	}
 ]
+

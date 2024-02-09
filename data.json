@@ -23,6 +23,60 @@
 		"command": "K",
 		"context": "Global",
 		"content": "Open man page for word under the cursor"
+	},
+	{
+		"command": "qa",
+		"context": "Macros",
+		"content": "record macro a"
+	},
+	{
+		"command": "q",
+		"context": "Macros",
+		"content": "stop recording macro"
+	},
+	{
+		"command": "@a",
+		"context": "Macros",
+		"content": "run macro a"
+	},
+	{
+		"command": "@@",
+		"context": "Macros",
+		"content": "rerun last run macro"
+	},
+	{
+		"command": ">",
+		"context": "Visual",
+		"content": "Shift text right"
+	},
+	{
+		"command": "<",
+		"context": "Visual",
+		"content": "Shift text left"
+	},
+	{
+		"command": "y",
+		"context": "Visual",
+		"content": "Yank (copy) marked text"
+	},
+	{
+		"command": "d",
+		"context": "Visual",
+		"content": "Delete marked text"
+	},
+	{
+		"command": "~",
+		"context": "Visual",
+		"content": "Switch case"
+	},
+	{
+		"command": "u",
+		"context": "Visual",
+		"content": "Change marked text to lowercase"
+	},
+	{
+		"command": "U",
+		"context": "Visual",
+		"content": "Change marked text to uppercase"
 	}
 ]
-

@@ -105,7 +105,7 @@
 		"content": "Go to the position where Vim was previously exited"
 	},
 	{
-		"command": "`"",
+		"command": "`\"",
 		"context": "Marks and positions",
 		"content": "Go to the position when last editing this file"
 	},

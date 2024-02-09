@@ -78,5 +78,80 @@
 		"command": "U",
 		"context": "Visual",
 		"content": "Change marked text to uppercase"
+	},
+	{
+		"command": ":marks",
+		"context": "Marks and positions",
+		"content": "List of marks"
+	},
+	{
+		"command": "ma",
+		"context": "Marks and positions",
+		"content": "Set current position for mark A"
+	},
+	{
+		"command": "`a",
+		"context": "Marks and positions",
+		"content": "Jump to position of mark A"
+	},
+	{
+		"command": "y`a",
+		"context": "Marks and positions",
+		"content": "Yank text to position of mark A"
+	},
+	{
+		"command": "`0",
+		"context": "Marks and positions",
+		"content": "Go to the position where Vim was previously exited"
+	},
+	{
+		"command": "`"",
+		"context": "Marks and positions",
+		"content": "Go to the position when last editing this file"
+	},
+	{
+		"command": "`.",
+		"context": "Marks and positions",
+		"content": "Go to the position of the last change in this file"
+	},
+	{
+		"command": "``",
+		"context": "Marks and positions",
+		"content": "Go to the position before the last jump"
+	},
+	{
+		"command": ":ju[mps]",
+		"context": "Marks and positions",
+		"content": "List of jumps"
+	},
+	{
+		"command": "Ctrl + i",
+		"context": "Marks and positions",
+		"content": "Go to newer position in jump list"
+	},
+	{
+		"command": "Ctrl + o",
+		"context": "Marks and positions",
+		"content": "Go to older position in jump list"
+	},
+	{
+		"command": ":changes",
+		"context": "Marks and positions",
+		"content": "List of changes"
+	},
+	{
+		"command": "g,",
+		"context": "Marks and positions",
+		"content": "Go to newer position in change list"
+	},
+	{
+		"command": "g;",
+		"context": "Marks and positions",
+		"content": "Go to older position in change list"
+	},
+	{
+		"command": "Ctrl + ]",
+		"context": "Marks and positions",
+		"content": "Jump to the tag under cursor"
 	}
 ]

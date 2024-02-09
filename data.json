@@ -1,0 +1,28 @@
+[
+	{
+		"command": ":h[elp] keyword",
+		"context": "Global",
+		"content": "Open help for keyword"
+	},
+	{
+		"command": ":sav[eas] file",
+		"context": "Global",
+		"content": "Save file as"
+	},
+	{
+		"command": ":clo[se]",
+		"context": "Global",
+		"content": "Close current pane"
+	},
+	{
+		"command": ":ter[minal]",
+		"context": "Global",
+		"content": "Open a terminal window"
+	},
+	{
+		"command": "K",
+		"context": "Global",
+		"content": "Open man page for word under the cursor"
+	}
+]
+
